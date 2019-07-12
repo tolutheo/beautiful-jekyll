@@ -1,7 +1,7 @@
 # --- General options --- #
 
 # Name of website
-title: My website
+title: Theo in cloud
 
 # Short description of your site
 description: A virtual proof that I'm awesome
@@ -28,7 +28,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+avatar: "/img/theo.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
