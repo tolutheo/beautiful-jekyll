@@ -68,14 +68,14 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: "tolutheo@gmail.com"
+  facebook: tolutheo
+  github: tolutheo
+  twitter: tolutheo
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: tolutheo
 #  xing: yourname
-#  stackoverflow: "3943160/daattali"
+  stackoverflow: "3943160/tolutheo"
 #  snapchat: deanat78
 #  instagram: deanat78
 #  youtube: user/deanat78
@@ -93,7 +93,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "tolutheo.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
