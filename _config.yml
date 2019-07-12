@@ -1,38 +1,34 @@
 # --- General options --- #
 
-# url is the full website URL
-# baseurl is the website's URL without the hostname
-
-# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-#url: "http://tolutheo.github.io/tolutheo.github.io"
-#baseurl: "/tolutheo.github.io"
-
-# If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
-
-# Of course don't forget to change the username and projectname to YOUR username and project
-
 # Name of website
-title: "Theo on Code"
+title: My website
 
 # Short description of your site
-description: "Code, life and all that is in between"
+description: A virtual proof that I'm awesome
+
+# --- Local development options ---
+# If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
+# *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
+
+# url is the the website domain URL without a trailing slash
+#url: "https://example.com"
+
+# baseurl should be an empty string
+#baseurl: ""
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-About Me: "aboutme"
-  #Resources:
+  About Me: "aboutme"
+  Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
-  #Author's home: "http://deanattali.com"
+  Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/theo.png"
+avatar: "/img/avatar-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -72,14 +68,14 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "tolutheo@gmail.com"
-  github: "tolutheo"
-  twitter: "@tolutheo"
+  email: "someone@example.com"
+  facebook: deanattali
+  github: daattali
+  twitter: daattali
 #  reddit: yourname
-#  google-plus: +DeanAttali
-   linkedin: "https://www.linkedin.com/in/tolutheo/"
+#  linkedin: daattali
 #  xing: yourname
-   stackoverflow: "https://stackoverflow.com/users/2900872/tolu-ajayi"
+#  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
 #  instagram: deanat78
 #  youtube: user/deanat78
@@ -93,14 +89,16 @@ social-network-links:
 share-links-active:
   twitter: true
   facebook: true
-  google: false
   linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "tolutheo.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
+
+# Fill in your Google Analytics gtag.js ID to track your website using gtag
+#gtag: ""
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
@@ -117,9 +115,29 @@ url-pretty: "tolutheo.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 #  uri: "demo.wiki.pro"
 #  opt-out: true
 
-# --- Misc --- #
+# --- Comments --- #
+
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+# disqus: ""
+
+# If you want to use JustComments fill with the API Key
+#just-comments: "ABCD-EFGH-IJKL"
+
+# To use Facebook Comments, fill in a Facebook App ID
+# fb_comment_id: ""
+
+# To use Staticman comments, fill in repository, branch, and endpoint
+staticman:
+  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+  endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
+  reCaptcha:
+    # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
+    # If you use reCaptcha, you must also set these parameters in staticman.yml
+    siteKey  : # Use your own site key, you need to apply for one on Google
+    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
+
+# --- Misc --- #
 
 # Facebook App ID
 # fb_app_id: ""
